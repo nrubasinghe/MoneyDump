@@ -1,0 +1,51 @@
+# ============================================================
+# ROOT WHITELIST — Only the 4 project folders are committed.
+# Everything else at root (scripts, docs, videos, etc.) is
+# ignored. Sub-folders control their own .gitignore rules.
+# ============================================================
+
+# Ignore everything at root level
+/*
+
+# Un-ignore only what should go to git
+!/.gitignore
+!/README.md
+!/budget-tracker-api/
+!/BudgetTracker/
+!/knowledge_base/
+!/vector_db/
+
+# ============================================================
+# Global rules (apply inside all allowed sub-folders)
+# ============================================================
+
+# Secrets — NEVER commit .env files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*.pyc
+**/venv/
+**/.venv/
+
+# App database only (budget.db) — NOT chroma.sqlite3
+**/budget.db
+**/budget-tracker-api/*.db
+**/budget-tracker-api/*.sqlite
+**/budget-tracker-api/*.sqlite3
+
+# Node
+**/node_modules/
+**/dist/
+**/dist-sar/
+
+# Logs
+**/*.log
+**/logs/
+
+# OS / Editor
+**/.DS_Store
+**/Thumbs.db

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Rent Due",
+        "amount": 1200,
+        "date": "2023-11-01",
+        "type": "bill",
+        "status": "paid"
+    },
+    {
+        "id": 2,
+        "title": "Salary Payday",
+        "amount": 3500,
+        "date": "2023-11-05",
+        "type": "income",
+        "status": "expected"
+    },
+    {
+        "id": 3,
+        "title": "Netflix Subscription",
+        "amount": 15.99,
+        "date": "2023-11-03",
+        "type": "subscription",
+        "status": "paid"
+    },
+    {
+        "id": 4,
+        "title": "Electric Bill Estimate",
+        "amount": 85,
+        "date": "2023-11-15",
+        "type": "bill",
+        "status": "pending"
+    },
+    {
+        "id": 5,
+        "title": "Gym Membership",
+        "amount": 45,
+        "date": "2023-11-05",
+        "type": "subscription",
+        "status": "pending"
+    },
+    {
+        "id": 6,
+        "title": "Internet Bill",
+        "amount": 60,
+        "date": "2023-11-20",
+        "type": "bill",
+        "status": "pending"
+    },
+    {
+        "id": 7,
+        "title": "Savings Transfer",
+        "amount": 500,
+        "date": "2023-11-06",
+        "type": "transfer",
+        "status": "pending"
+    }
+]

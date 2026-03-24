@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "title": "Monthly Groceries",
+        "amount": 350,
+        "type": "expense",
+        "category": "Food",
+        "date": "2023-11-01",
+        "merchant": "Supermarket City",
+        "status": "completed"
+    },
+    {
+        "id": 2,
+        "title": "Netflix Subscription",
+        "amount": 15.99,
+        "type": "expense",
+        "category": "Entertainment",
+        "date": "2023-11-03",
+        "merchant": "Netflix",
+        "recurring": true,
+        "status": "completed"
+    },
+    {
+        "id": 3,
+        "title": "Freelance Payment",
+        "amount": 1200,
+        "type": "income",
+        "category": "Salary",
+        "date": "2023-11-05",
+        "merchant": "Client A",
+        "status": "completed"
+    },
+    {
+        "id": 4,
+        "title": "Gym Membership",
+        "amount": 45,
+        "type": "expense",
+        "category": "Health",
+        "date": "2023-11-05",
+        "merchant": "FitLife Gym",
+        "recurring": true,
+        "status": "pending"
+    },
+    {
+        "id": 5,
+        "title": "Electric Bill",
+        "amount": 85.50,
+        "type": "expense",
+        "category": "Utilities",
+        "date": "2023-11-10",
+        "merchant": "City Power",
+        "status": "pending"
+    },
+    {
+        "id": 6,
+        "title": "Coffee Shop",
+        "amount": 4.50,
+        "type": "expense",
+        "category": "Food",
+        "date": "2023-11-12",
+        "merchant": "Daily Brew",
+        "status": "completed"
+    },
+    {
+        "id": 7,
+        "title": "Internet Bill",
+        "amount": 60,
+        "type": "expense",
+        "category": "Utilities",
+        "date": "2023-11-15",
+        "merchant": "FastNet",
+        "recurring": true,
+        "status": "pending"
+    },
+    {
+        "id": 8,
+        "title": "Rent Payment",
+        "amount": 1200,
+        "type": "expense",
+        "category": "Housing",
+        "date": "2023-11-01",
+        "merchant": "Landlord",
+        "recurring": true,
+        "status": "completed"
+    },
+    {
+        "id": 9,
+        "title": "Tech Gadgets",
+        "amount": 150,
+        "type": "expense",
+        "category": "Shopping",
+        "date": "2023-11-18",
+        "merchant": "TechStore",
+        "status": "completed"
+    },
+    {
+        "id": 10,
+        "title": "Restaurant Dinner",
+        "amount": 65,
+        "type": "expense",
+        "category": "Food",
+        "date": "2023-11-20",
+        "merchant": "Italian Bistro",
+        "status": "completed"
+    }
+]
